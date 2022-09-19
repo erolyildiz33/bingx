@@ -1,11 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Filtre from './components/filtre.vue';
+import Filtre from './components/popover.vue';
+import Popover from './components/popover.vue';
 </script>
 
 <template>
-  <header>
-    <Filtre />
-</header>
+ 
+    <Popover />
+
 </template>
 
